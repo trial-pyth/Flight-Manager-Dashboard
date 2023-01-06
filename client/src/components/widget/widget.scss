@@ -1,0 +1,66 @@
+.flight-widget{
+    background-color: rgb(6,6,6);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: rgba(50,50,93,0.25) 0px 13px 27px -5px,
+    rgba(0,0,0,0.3) 0 8px 16px -8px;
+    color: aliceblue;
+    // transform: scale(1.3);
+
+    table{
+        background-color: rgb(46,46,46);
+        text-align-last: left;
+        height:200px;
+        // position: absolute;
+
+        #time{
+            width: 90px;
+        }
+
+        #destination{
+            width: 200px;
+        }
+
+        #gate{
+            width: 100px;
+        }
+
+        #flight{
+            width: 135px;
+        }
+
+        #status{
+            width: 100px;
+        }
+
+
+        div{
+            border: solid 4px regb(26,26,26);
+            background-color: black;
+            min-width: fit-content;
+            height: fit-content;
+            float: left;
+            padding: 1px;
+        }
+
+        .flip{
+            animation: 0.5s linear flipping;
+            
+
+            @keyframes flipping{
+                0%{
+                    transform: rotateX(0deg);
+                }
+                50%{
+                    transform: rotateX(90deg);
+                }
+                100%{
+                    transform: rotateX(0deg);
+                }
+            }
+
+        }
+
+        
+    }
+}

@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  color: rgb(115, 115, 114);
+  font-weight: bold;
+
+  .time {
+    margin: 10px;
+
+    input {
+      margin: 10px;
+      width: 100px;
+      border: none;
+      height: 20px;
+      border-bottom: 1px solid grey;
+    }
+  }
+
+  .destination {
+    margin: 15px;
+
+    input {
+      margin: 20px;
+      width: 240px;
+      border: none;
+      height: 20px;
+      border-bottom: 1px solid grey;
+    }
+  }
+
+  .status {
+    margin: 5px;
+
+    select {
+      margin: 10px;
+    }
+  }
+
+  button {
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

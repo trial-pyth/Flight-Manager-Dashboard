@@ -1,0 +1,35 @@
+.addflight {
+  display: flex;
+  width: 100%;
+
+  .homeContainer {
+    flex: 6;
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 70vh;
+      background: rgb(79, 76, 76);
+      background: linear-gradient(
+        222deg,
+        rgba(79, 76, 76, 1) 0%,
+        rgba(78, 78, 78, 1) 4%,
+        rgba(119, 113, 113, 0.7837810783493084) 62%,
+        rgba(190, 189, 189, 1) 92%
+      );
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 30vh;
+      padding: 10px;
+      flex: 1;
+      border: 1px solid rgba(255, 255, 255);
+    }
+  }
+}
