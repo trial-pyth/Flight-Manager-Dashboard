@@ -1,4 +1,4 @@
-# ✈ Flight-Manager-Dashboard
+# ✈ Flight Manager Dashboard
 A react application displaying flight schedules and manager with JSON Web server as backend
 
 📌 This is a simple dashboard dispaying flights from a backend hosted by JSON server and enabled CRUD operations.
