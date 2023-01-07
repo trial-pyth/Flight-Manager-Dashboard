@@ -23,6 +23,12 @@ A react application displaying flight schedules and manager with JSON Web server
 
 <img src="https://raw.githubusercontent.com/trial-pyth/Flight-Manager-Dashboard/master/img/flight-table.PNG" alt="flight-table"  width=600 />
 
+## __Flight databases are stored in a JSON Web server, enabling `CRUD` operations through REST API endpoints__
+
+<img src="https://raw.githubusercontent.com/trial-pyth/Flight-Manager-Dashboard/master/img/db.png" alt="flight-table"  width=600 height=600 />
+
+
+
 
 
 
